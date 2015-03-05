@@ -1,6 +1,10 @@
 # ns-extensions
 Helper methods that extends interface of NSObject classes.
 
+## Instalation
+
+Copy the ns-framework folder to your project.
+
 ### NSArray extension
 
     NSArray *sampleArray = @[@{@"name":@"Tom", @"sex":@"m", @"age":@(14)},
