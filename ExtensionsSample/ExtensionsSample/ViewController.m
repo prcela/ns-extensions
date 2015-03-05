@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSArray+Ext.h"
+#import "NSDate+Ext.h"
 
 @interface ViewController ()
 
@@ -21,6 +22,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self arraySamples];
+    [self dateSamples];
 }
 
 - (void) arraySamples
@@ -47,9 +49,17 @@
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) dateSamples
+{
+    NSString *today = [[NSDate new] localizedStringWithTimeFormat:@"dd.MM.yyyy."];
+    NSLog(@"today is %@", today);
+    
+    NSInteger index = [[NSDate new] weekdayZeroBased];
+    NSLog(@"If monday is first, today is %ld. day in week. ", (long)index);
+    
+    NSString *oneDateString = @"4.3.2015.";
+    NSDate *oneDate = [NSDate dateFromString:oneDateString withFormat:@"dd.MM.yyyy."];
+    NSLog(@"%@ was %ld. day in week", oneDateString, [oneDate weekdayZeroBased]);
 }
 
 @end
