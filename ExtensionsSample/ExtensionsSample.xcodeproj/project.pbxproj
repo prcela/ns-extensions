@@ -14,9 +14,14 @@
 		97BB38891AA89A5C003179D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BB38881AA89A5C003179D1 /* Images.xcassets */; };
 		97BB388C1AA89A5C003179D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BB388A1AA89A5C003179D1 /* LaunchScreen.xib */; };
 		97BB38981AA89A5C003179D1 /* ExtensionsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38971AA89A5C003179D1 /* ExtensionsSampleTests.m */; };
-		97BB38A41AA89B9C003179D1 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38A31AA89B9C003179D1 /* NSArray+Ext.m */; };
-		97BB38A71AA8A16F003179D1 /* NSDate+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38A61AA8A16F003179D1 /* NSDate+Ext.m */; };
-		97BB38AA1AA8A708003179D1 /* NSDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38A91AA8A708003179D1 /* NSDictionary+Ext.m */; };
+		97BB38BB1AA8AB43003179D1 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38AC1AA8AB43003179D1 /* NSArray+Ext.m */; };
+		97BB38BC1AA8AB43003179D1 /* NSDate+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38AE1AA8AB43003179D1 /* NSDate+Ext.m */; };
+		97BB38BD1AA8AB43003179D1 /* NSDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38B01AA8AB43003179D1 /* NSDictionary+Ext.m */; };
+		97BB38BE1AA8AB43003179D1 /* NSNotificationCenter+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38B21AA8AB43003179D1 /* NSNotificationCenter+Ext.m */; };
+		97BB38BF1AA8AB43003179D1 /* NSObject+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38B41AA8AB43003179D1 /* NSObject+Ext.m */; };
+		97BB38C01AA8AB43003179D1 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38B61AA8AB43003179D1 /* NSString+Ext.m */; };
+		97BB38C11AA8AB43003179D1 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38B81AA8AB43003179D1 /* UIColor+Ext.m */; };
+		97BB38C21AA8AB43003179D1 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38BA1AA8AB43003179D1 /* UIImage+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +48,22 @@
 		97BB38911AA89A5C003179D1 /* ExtensionsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BB38961AA89A5C003179D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97BB38971AA89A5C003179D1 /* ExtensionsSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionsSampleTests.m; sourceTree = "<group>"; };
-		97BB38A21AA89B9C003179D1 /* NSArray+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
-		97BB38A31AA89B9C003179D1 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
-		97BB38A51AA8A16F003179D1 /* NSDate+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ext.h"; sourceTree = "<group>"; };
-		97BB38A61AA8A16F003179D1 /* NSDate+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Ext.m"; sourceTree = "<group>"; };
-		97BB38A81AA8A708003179D1 /* NSDictionary+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ext.h"; sourceTree = "<group>"; };
-		97BB38A91AA8A708003179D1 /* NSDictionary+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ext.m"; sourceTree = "<group>"; };
+		97BB38AB1AA8AB43003179D1 /* NSArray+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
+		97BB38AC1AA8AB43003179D1 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
+		97BB38AD1AA8AB43003179D1 /* NSDate+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Ext.h"; sourceTree = "<group>"; };
+		97BB38AE1AA8AB43003179D1 /* NSDate+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Ext.m"; sourceTree = "<group>"; };
+		97BB38AF1AA8AB43003179D1 /* NSDictionary+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Ext.h"; sourceTree = "<group>"; };
+		97BB38B01AA8AB43003179D1 /* NSDictionary+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Ext.m"; sourceTree = "<group>"; };
+		97BB38B11AA8AB43003179D1 /* NSNotificationCenter+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+Ext.h"; sourceTree = "<group>"; };
+		97BB38B21AA8AB43003179D1 /* NSNotificationCenter+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+Ext.m"; sourceTree = "<group>"; };
+		97BB38B31AA8AB43003179D1 /* NSObject+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Ext.h"; sourceTree = "<group>"; };
+		97BB38B41AA8AB43003179D1 /* NSObject+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Ext.m"; sourceTree = "<group>"; };
+		97BB38B51AA8AB43003179D1 /* NSString+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
+		97BB38B61AA8AB43003179D1 /* NSString+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
+		97BB38B71AA8AB43003179D1 /* UIColor+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
+		97BB38B81AA8AB43003179D1 /* UIColor+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
+		97BB38B91AA8AB43003179D1 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
+		97BB38BA1AA8AB43003179D1 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,12 +147,22 @@
 		97BB38A11AA89B9C003179D1 /* ns-extensions */ = {
 			isa = PBXGroup;
 			children = (
-				97BB38A21AA89B9C003179D1 /* NSArray+Ext.h */,
-				97BB38A31AA89B9C003179D1 /* NSArray+Ext.m */,
-				97BB38A51AA8A16F003179D1 /* NSDate+Ext.h */,
-				97BB38A61AA8A16F003179D1 /* NSDate+Ext.m */,
-				97BB38A81AA8A708003179D1 /* NSDictionary+Ext.h */,
-				97BB38A91AA8A708003179D1 /* NSDictionary+Ext.m */,
+				97BB38AB1AA8AB43003179D1 /* NSArray+Ext.h */,
+				97BB38AC1AA8AB43003179D1 /* NSArray+Ext.m */,
+				97BB38AD1AA8AB43003179D1 /* NSDate+Ext.h */,
+				97BB38AE1AA8AB43003179D1 /* NSDate+Ext.m */,
+				97BB38AF1AA8AB43003179D1 /* NSDictionary+Ext.h */,
+				97BB38B01AA8AB43003179D1 /* NSDictionary+Ext.m */,
+				97BB38B11AA8AB43003179D1 /* NSNotificationCenter+Ext.h */,
+				97BB38B21AA8AB43003179D1 /* NSNotificationCenter+Ext.m */,
+				97BB38B31AA8AB43003179D1 /* NSObject+Ext.h */,
+				97BB38B41AA8AB43003179D1 /* NSObject+Ext.m */,
+				97BB38B51AA8AB43003179D1 /* NSString+Ext.h */,
+				97BB38B61AA8AB43003179D1 /* NSString+Ext.m */,
+				97BB38B71AA8AB43003179D1 /* UIColor+Ext.h */,
+				97BB38B81AA8AB43003179D1 /* UIColor+Ext.m */,
+				97BB38B91AA8AB43003179D1 /* UIImage+Ext.h */,
+				97BB38BA1AA8AB43003179D1 /* UIImage+Ext.m */,
 			);
 			path = "ns-extensions";
 			sourceTree = "<group>";
@@ -242,12 +267,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BB38AA1AA8A708003179D1 /* NSDictionary+Ext.m in Sources */,
-				97BB38A71AA8A16F003179D1 /* NSDate+Ext.m in Sources */,
-				97BB38A41AA89B9C003179D1 /* NSArray+Ext.m in Sources */,
+				97BB38BC1AA8AB43003179D1 /* NSDate+Ext.m in Sources */,
+				97BB38C11AA8AB43003179D1 /* UIColor+Ext.m in Sources */,
+				97BB38BE1AA8AB43003179D1 /* NSNotificationCenter+Ext.m in Sources */,
+				97BB38BD1AA8AB43003179D1 /* NSDictionary+Ext.m in Sources */,
 				97BB38841AA89A5C003179D1 /* ViewController.m in Sources */,
+				97BB38BB1AA8AB43003179D1 /* NSArray+Ext.m in Sources */,
+				97BB38C21AA8AB43003179D1 /* UIImage+Ext.m in Sources */,
 				97BB38811AA89A5C003179D1 /* AppDelegate.m in Sources */,
+				97BB38C01AA8AB43003179D1 /* NSString+Ext.m in Sources */,
 				97BB387E1AA89A5C003179D1 /* main.m in Sources */,
+				97BB38BF1AA8AB43003179D1 /* NSObject+Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
