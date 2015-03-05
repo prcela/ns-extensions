@@ -34,3 +34,12 @@ Helper methods that extends interface of NSObject classes.
     NSString *oneDateString = @"4.3.2015.";
     NSDate *oneDate = [NSDate dateFromString:oneDateString withFormat:@"dd.MM.yyyy."];
     NSLog(@"%@ was %ld. day in week", oneDateString, [oneDate weekdayZeroBased]);
+    
+### NSDictionary extension
+
+    Person *person = [Person new];
+    person.name = @"Toni";
+    person.age = @(5);
+    
+    NSDictionary *dic = [NSDictionary dictionaryWithPropertiesOfObject:person];
+    NSLog(@"Dictionary with properties of person object: %@", dic);
