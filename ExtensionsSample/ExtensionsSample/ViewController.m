@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "NSArray+Ext.h"
 #import "NSDate+Ext.h"
+#import "NSDictionary+Ext.h"
+
+
 
 @interface ViewController ()
 
@@ -23,6 +26,7 @@
     
     [self arraySamples];
     [self dateSamples];
+    [self dictionarySample];
 }
 
 - (void) arraySamples
@@ -61,5 +65,20 @@
     NSDate *oneDate = [NSDate dateFromString:oneDateString withFormat:@"dd.MM.yyyy."];
     NSLog(@"%@ was %ld. day in week", oneDateString, [oneDate weekdayZeroBased]);
 }
+
+- (void) dictionarySample
+{
+    Person *person = [Person new];
+    person.name = @"Toni";
+    person.age = @(5);
+    
+    NSDictionary *dic = [NSDictionary dictionaryWithPropertiesOfObject:person];
+    NSLog(@"Dictionary with properties of person object: %@", dic);
+}
+
+@end
+
+
+@implementation Person
 
 @end
