@@ -1,7 +1,7 @@
 # ns-extensions
 Helper methods that extends interface of NSObject classes.
 
-## Instalation
+## Installation
 
 Copy the ns-extensions folder to your project.
 
