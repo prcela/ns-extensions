@@ -3,7 +3,7 @@ Helper methods that extends interface of NSObject classes.
 
 ## Instalation
 
-Copy the ns-framework folder to your project.
+Copy the ns-extensions folder to your project.
 
 ### NSArray extension
 
