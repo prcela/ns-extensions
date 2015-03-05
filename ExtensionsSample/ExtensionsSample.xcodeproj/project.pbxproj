@@ -14,6 +14,7 @@
 		97BB38891AA89A5C003179D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BB38881AA89A5C003179D1 /* Images.xcassets */; };
 		97BB388C1AA89A5C003179D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BB388A1AA89A5C003179D1 /* LaunchScreen.xib */; };
 		97BB38981AA89A5C003179D1 /* ExtensionsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38971AA89A5C003179D1 /* ExtensionsSampleTests.m */; };
+		97BB38A41AA89B9C003179D1 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38A31AA89B9C003179D1 /* NSArray+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		97BB38911AA89A5C003179D1 /* ExtensionsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BB38961AA89A5C003179D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97BB38971AA89A5C003179D1 /* ExtensionsSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionsSampleTests.m; sourceTree = "<group>"; };
+		97BB38A21AA89B9C003179D1 /* NSArray+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
+		97BB38A31AA89B9C003179D1 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		97BB386F1AA89A5C003179D1 = {
 			isa = PBXGroup;
 			children = (
+				97BB38A11AA89B9C003179D1 /* ns-extensions */,
 				97BB387A1AA89A5C003179D1 /* ExtensionsSample */,
 				97BB38941AA89A5C003179D1 /* ExtensionsSampleTests */,
 				97BB38791AA89A5C003179D1 /* Products */,
@@ -117,6 +121,15 @@
 				97BB38961AA89A5C003179D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97BB38A11AA89B9C003179D1 /* ns-extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97BB38A21AA89B9C003179D1 /* NSArray+Ext.h */,
+				97BB38A31AA89B9C003179D1 /* NSArray+Ext.m */,
+			);
+			path = "ns-extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BB38A41AA89B9C003179D1 /* NSArray+Ext.m in Sources */,
 				97BB38841AA89A5C003179D1 /* ViewController.m in Sources */,
 				97BB38811AA89A5C003179D1 /* AppDelegate.m in Sources */,
 				97BB387E1AA89A5C003179D1 /* main.m in Sources */,
