@@ -1,5 +1,5 @@
 # ns-extensions
-Helper methods that extends interface of NSObject classes.
+Helper methods that extends interface of iOS foundation classes like are NSArray, NSDictionary, NSDate, NSNotificationCenter, UIColor, UIImage and similar.
 
 ## Installation
 
