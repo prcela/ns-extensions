@@ -47,3 +47,16 @@ Copy the ns-extensions folder to your project.
     
     NSDictionary *dic = [NSDictionary dictionaryWithPropertiesOfObject:person];
     NSLog(@"Dictionary with properties of person object: %@", dic);
+
+### NSNotificationCenter extension
+
+    // one notification function for many notifications
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(onNotification)
+                                                names:@[@"notifcation1",
+                                                        @"notifcation2",
+                                                        @"notifcation3"]
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"notifcation2"
+                                                        object:nil];
