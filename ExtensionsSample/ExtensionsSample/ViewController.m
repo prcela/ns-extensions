@@ -9,8 +9,9 @@
 #import "ViewController.h"
 #import "NSArray+Ext.h"
 #import "NSDate+Ext.h"
+#import "NSString+Ext.h"
 #import "NSDictionary+Ext.h"
-
+#import "NSNotificationCenter+Ext.h"
 
 
 @interface ViewController ()
@@ -27,6 +28,7 @@
     [self arraySamples];
     [self dateSamples];
     [self dictionarySample];
+    [self notificationsSample];
 }
 
 - (void) arraySamples
@@ -64,6 +66,9 @@
     NSString *oneDateString = @"4.3.2015.";
     NSDate *oneDate = [NSDate dateFromString:oneDateString withFormat:@"dd.MM.yyyy."];
     NSLog(@"%@ was %ld. day in week", oneDateString, [oneDate weekdayZeroBased]);
+    
+    NSString *differentFormat = [oneDateString convertTimeFormatFrom:@"dd.MM.yyyy." to:@"dd-MM-yyyy"];
+    NSLog(@"Different format: %@", differentFormat);
 }
 
 - (void) dictionarySample
@@ -74,6 +79,25 @@
     
     NSDictionary *dic = [NSDictionary dictionaryWithPropertiesOfObject:person];
     NSLog(@"Dictionary with properties of person object: %@", dic);
+}
+
+- (void) notificationsSample
+{
+    // one notification function for many notifications
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(onNotification)
+                                                names:@[@"notifcation1",
+                                                        @"notifcation2",
+                                                        @"notifcation3"]
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"notifcation2"
+                                                        object:nil];
+}
+
+- (void) onNotification
+{
+    NSLog(@"notified.");
 }
 
 @end
