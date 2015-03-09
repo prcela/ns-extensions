@@ -22,6 +22,7 @@
 		97BB38C01AA8AB43003179D1 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38B61AA8AB43003179D1 /* NSString+Ext.m */; };
 		97BB38C11AA8AB43003179D1 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38B81AA8AB43003179D1 /* UIColor+Ext.m */; };
 		97BB38C21AA8AB43003179D1 /* UIImage+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38BA1AA8AB43003179D1 /* UIImage+Ext.m */; };
+		97BB38DE1AADEE36003179D1 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BB38DD1AADEE36003179D1 /* UIView+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		97BB38B81AA8AB43003179D1 /* UIColor+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
 		97BB38B91AA8AB43003179D1 /* UIImage+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ext.h"; sourceTree = "<group>"; };
 		97BB38BA1AA8AB43003179D1 /* UIImage+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ext.m"; sourceTree = "<group>"; };
+		97BB38DC1AADEE36003179D1 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		97BB38DD1AADEE36003179D1 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				97BB38B81AA8AB43003179D1 /* UIColor+Ext.m */,
 				97BB38B91AA8AB43003179D1 /* UIImage+Ext.h */,
 				97BB38BA1AA8AB43003179D1 /* UIImage+Ext.m */,
+				97BB38DC1AADEE36003179D1 /* UIView+Ext.h */,
+				97BB38DD1AADEE36003179D1 /* UIView+Ext.m */,
 			);
 			path = "ns-extensions";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				97BB38BB1AA8AB43003179D1 /* NSArray+Ext.m in Sources */,
 				97BB38C21AA8AB43003179D1 /* UIImage+Ext.m in Sources */,
 				97BB38811AA89A5C003179D1 /* AppDelegate.m in Sources */,
+				97BB38DE1AADEE36003179D1 /* UIView+Ext.m in Sources */,
 				97BB38C01AA8AB43003179D1 /* NSString+Ext.m in Sources */,
 				97BB387E1AA89A5C003179D1 /* main.m in Sources */,
 				97BB38BF1AA8AB43003179D1 /* NSObject+Ext.m in Sources */,

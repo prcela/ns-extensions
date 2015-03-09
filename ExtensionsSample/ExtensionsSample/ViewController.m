@@ -12,7 +12,7 @@
 #import "NSString+Ext.h"
 #import "NSDictionary+Ext.h"
 #import "NSNotificationCenter+Ext.h"
-
+#import "UIView+Ext.h"
 
 @interface ViewController ()
 
@@ -29,6 +29,7 @@
     [self dateSamples];
     [self dictionarySample];
     [self notificationsSample];
+    [self viewSample];
 }
 
 - (void) arraySamples
@@ -98,6 +99,12 @@
 - (void) onNotification
 {
     NSLog(@"notified.");
+}
+
+- (void) viewSample
+{
+    UIImage *image = [self.view renderToImage];
+    NSLog(@"Rendered image size is %g x %g", image.size.width, image.size.height);
 }
 
 @end
